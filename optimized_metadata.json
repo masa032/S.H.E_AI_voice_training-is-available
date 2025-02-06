@@ -1,0 +1,154 @@
+{
+    "title": "S.H.E",
+    "author": {
+        "name": "S.V (ShadowVortex)"
+    },
+    "md5": "c4ccfb71abf8baf8375572bec8e95a96",
+    "uploadedAt": "2025-01-27T18:05:00.948Z",
+    "weightsLink": "https://www.weights.gg/models/cm6fczc7n00ufmz18gu98nx8s",
+    "id": "cm6fczc7n00ufmz18gu98nx8s",
+    "type": "v2",
+    "tags": [
+        "Other Languages",
+        "TTS / Realtime"
+    ],
+    "description": "臺灣女子演唱團體，由Selina、Hebe和Ella組成，團名取自三位成員英文名字的首個字母。三人在2000年參加《宇宙2000實力美少女爭霸戰》選秀比賽後，被台灣宇宙唱片簽下培訓，並於2001年9月11日發行首張專輯《女生宿舍》正式出道。S.H.E出道至今，專輯總銷售量在全球累積超過1600萬張，曾位居全球女子團體專輯銷售量第七名。[1][2] ，累計超過50餘場世界巡迴售票演唱會，其中世界巡迴演唱會的觀賞人數突破100萬人次，亦是臺灣最長壽及唱片銷售量最高的女子團體，也是現今亞洲五大暢銷與全球十大暢銷女子團體之一，並有「亞洲女子天團」之美譽。",
+    "samples": [],
+    "files": [
+        {
+            "name": "modified_metadata_she.json",
+            "size": 3704,
+            "md5": "55fcfc1a4dda1b56ef86c555cff47ff5"
+        },
+        {
+            "name": "model.pth",
+            "size": 57577658,
+            "md5": "c4ccfb71abf8baf8375572bec8e95a96"
+        }
+    ],
+    "torchMetadata": {
+        "config": {
+            "spec_channels": 1025,
+            "segment_size": 32,
+            "inter_channels": 256,
+            "hidden_channels": 256,
+            "filter_channels": 1024,
+            "n_heads": 2,
+            "n_layers": 6,
+            "kernel_size": 3,
+            "p_dropout": 0,
+            "resblock": "1",
+            "resblock_kernel_sizes": [
+                3,
+                7,
+                11
+            ],
+            "resblock_dilation_sizes": [
+                [
+                    1,
+                    3,
+                    5
+                ],
+                [
+                    1,
+                    3,
+                    5
+                ],
+                [
+                    1,
+                    3,
+                    5
+                ]
+            ],
+            "upsample_rates": [
+                8,
+                8,
+                4,
+                4
+            ],
+            "upsample_initial_channel": 512,
+            "upsample_kernel_sizes": [
+                24,
+                20,
+                4,
+                4
+            ],
+            "emb_channels": null,
+            "spk_embed_dim": 256,
+            "gin_channels": 256,
+            "sr": 48000
+        },
+        "f0": 1,
+        "version": "v2",
+        "extra_info": {
+            "config": [
+                1025,
+                32,
+                192,
+                192,
+                768,
+                2,
+                6,
+                3,
+                0,
+                "1",
+                [
+                    3,
+                    7,
+                    11
+                ],
+                [
+                    [
+                        1,
+                        3,
+                        5
+                    ],
+                    [
+                        1,
+                        3,
+                        5
+                    ],
+                    [
+                        1,
+                        3,
+                        5
+                    ]
+                ],
+                [
+                    12,
+                    10,
+                    2,
+                    2
+                ],
+                512,
+                [
+                    24,
+                    20,
+                    4,
+                    4
+                ],
+                109,
+                256,
+                48000
+            ],
+            "epoch": 18,
+            "step": 234,
+            "sr": 48000,
+            "f0": 1,
+            "version": "v2",
+            "creation_date": "2025-01-27T07:33:46.761465",
+            "model_hash": "7bd7e234-3c85-4502-ac05-1ef821f3c307"
+        },
+        "epochs": 200,
+        "step": 234,
+        "creation_date": "2025-01-27T07:33:46.761465",
+        "model_hash": "7bd7e234-3c85-4502-ac05-1ef821f3c307"
+    },
+    "url": "https://models.weights.gg/8aaa118e-9deb-4ef9-9416-4749cbd97320.zip",
+    "urls": [],
+    "epochs": 18,
+    "originalFileList": [
+        "S.H.E - Weights.gg Model/model.pth",
+        "S.H.E - Weights.gg Model/modified_metadata_she.json"
+    ]
+}
